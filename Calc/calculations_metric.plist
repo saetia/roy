@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>MSI → Linear Meters</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Total Linear Meters</string>
+		<key>icon</key>
+		<string>winner.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Area</string>
+				<key>unit</key>
+				<string>m²</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>cm</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MI → Linear Meters</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Total Linear Meters</string>
+		<key>icon</key>
+		<string>winner.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Impressions</string>
+				<key>unit</key>
+				<string>1000 imp.</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Impression Area</string>
+				<key>unit</key>
+				<string>cm²</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>cm</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MI → m²</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>m²</string>
+		<key>icon</key>
+		<string>ruler2.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Impressions</string>
+				<key>unit</key>
+				<string>1000 imp.</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Impression Area</string>
+				<key>unit</key>
+				<string>cm²</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MSI Price → MI Price</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Per MI</string>
+		<key>icon</key>
+		<string>price.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Price per Area</string>
+				<key>unit</key>
+				<string>$/MSI</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Impression Area</string>
+				<key>unit</key>
+				<string>cm²</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Linear Meters → MI</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>MI</string>
+		<key>icon</key>
+		<string>ruler.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Roll Length</string>
+				<key>unit</key>
+				<string>m</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Cut-Off</string>
+				<key>unit</key>
+				<string>cm²</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Number Across</string>
+				<key>unit</key>
+				<string>#</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Yield → Basis Weight</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>g/m²</string>
+		<key>icon</key>
+		<string>ruler.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Yield</string>
+				<key>unit</key>
+				<string>m²/kg</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Basis Weight → Yield</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>m²/kg</string>
+		<key>icon</key>
+		<string>ruler.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Unit Weight</string>
+				<key>unit</key>
+				<string>m²/kg</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Roll Length</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Linear Meters</string>
+		<key>icon</key>
+		<string>ruler2.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Roll Outside Diameter</string>
+				<key>unit</key>
+				<string>cm</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Core Outer Diameter</string>
+				<key>unit</key>
+				<string>cm</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Material Thickness</string>
+				<key>unit</key>
+				<string>µm</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Roll Outside Diameter</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Centimeters</string>
+		<key>icon</key>
+		<string>record.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Roll Length</string>
+				<key>unit</key>
+				<string>meters</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Core Outer Diameter</string>
+				<key>unit</key>
+				<string>cm</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Material Thickness</string>
+				<key>unit</key>
+				<string>µm</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Weight | Yield → Linear Meters</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Linear Meters</string>
+		<key>icon</key>
+		<string>ruler.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Weight</string>
+				<key>unit</key>
+				<string>kg</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Yield</string>
+				<key>unit</key>
+				<string>m²/kg</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>cm</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Weight | Basis Weight → Linear Meters</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Linear Meters</string>
+		<key>icon</key>
+		<string>ruler.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Weight</string>
+				<key>unit</key>
+				<string>kg</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Unit Weight</string>
+				<key>unit</key>
+				<string>g/m²</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>cm</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Length | Yield → Weight</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Kilograms</string>
+		<key>icon</key>
+		<string>ruler2.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Roll Length</string>
+				<key>unit</key>
+				<string>meters</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Yield</string>
+				<key>unit</key>
+				<string>m²/kg</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>cm</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Length | Basis Weight → Weight</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Kilograms</string>
+		<key>icon</key>
+		<string>ruler.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Roll Length</string>
+				<key>unit</key>
+				<string>meters</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Unit Weight</string>
+				<key>unit</key>
+				<string>g/m²</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>cm</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

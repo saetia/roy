@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>MSI → Linear Feet</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Total Linear Feet</string>
+		<key>icon</key>
+		<string>ruler-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Area</string>
+				<key>unit</key>
+				<string>1000 in²</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>in</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MI → Linear Feet</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Total Linear Feet</string>
+		<key>icon</key>
+		<string>ruler-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Impressions</string>
+				<key>unit</key>
+				<string>1000 imp.</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Impression Area</string>
+				<key>unit</key>
+				<string>in²</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>in</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MI → MSI</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>MSI</string>
+		<key>icon</key>
+		<string>expose-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Impressions</string>
+				<key>unit</key>
+				<string>1000 imp.</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Impression Area</string>
+				<key>unit</key>
+				<string>in²</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MSI Price → MI Price</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Per MI</string>
+		<key>icon</key>
+		<string>price-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Price per Area</string>
+				<key>unit</key>
+				<string>$/MSI</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Impression Area</string>
+				<key>unit</key>
+				<string>in²</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Linear Feet → MI</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>MI</string>
+		<key>icon</key>
+		<string>expose-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Roll Length</string>
+				<key>unit</key>
+				<string>ft</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Cut-Off</string>
+				<key>unit</key>
+				<string>in</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Number Across</string>
+				<key>unit</key>
+				<string>#</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Yield → Basis Weight</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Pounds / Ream</string>
+		<key>icon</key>
+		<string>flipclock-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Yield</string>
+				<key>unit</key>
+				<string>in²/lb</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Basis Weight → Yield</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Pounds / Ream</string>
+		<key>icon</key>
+		<string>suitcase-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Unit Weight</string>
+				<key>unit</key>
+				<string>lb/ream</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Roll Length</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>linear feet</string>
+		<key>icon</key>
+		<string>ruler-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Roll Diameter</string>
+				<key>unit</key>
+				<string>ft</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Core Diameter</string>
+				<key>unit</key>
+				<string>in</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Thickness</string>
+				<key>unit</key>
+				<string>mils</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Roll Outside Diameter</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Inches</string>
+		<key>icon</key>
+		<string>record-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Roll Length</string>
+				<key>unit</key>
+				<string>ft</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Core Diameter</string>
+				<key>unit</key>
+				<string>in</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Thickness</string>
+				<key>unit</key>
+				<string>mils</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Weight | Yield → Linear Ft</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Linear Feet</string>
+		<key>icon</key>
+		<string>ruler-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Weight</string>
+				<key>unit</key>
+				<string>lb</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Yield</string>
+				<key>unit</key>
+				<string>in²/lb</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>in</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Weight | BW → Linear Ft</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Linear Feet</string>
+		<key>icon</key>
+		<string>ruler-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Unit Weight</string>
+				<key>unit</key>
+				<string>lb/ream</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Weight</string>
+				<key>unit</key>
+				<string>lb</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>in</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Length | Yield → Weight</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Pounds</string>
+		<key>icon</key>
+		<string>flipclock-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Yield</string>
+				<key>unit</key>
+				<string>in²/lb</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Length</string>
+				<key>unit</key>
+				<string>ft</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>in</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Length | BW → Weight</string>
+		<key>group</key>
+		<string>Calculations</string>
+		<key>result</key>
+		<string>Pounds</string>
+		<key>icon</key>
+		<string>flipclock-white.png</string>
+		<key>variables</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Unit Weight</string>
+				<key>unit</key>
+				<string>lb/ream</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Length</string>
+				<key>unit</key>
+				<string>ft</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Roll Width</string>
+				<key>unit</key>
+				<string>in</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
